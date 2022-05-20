@@ -161,15 +161,15 @@ body{
 }
 
 .mach{
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 .arrow{
   font-size: 2rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-left: 15rem;
 }
 .cosmic{
-  margin: 3rem;
+  margin: 2rem;
 }
 
 @keyframes brown-box {
@@ -379,8 +379,8 @@ body{
     display: none;
   }
   .home-big-img{
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
   }
   .home{
     grid-template-areas: 
@@ -395,6 +395,8 @@ body{
     left: 3rem;
     bottom: 3rem;
     margin-bottom: 2rem;
+    width: 350px;
+    height: 350px;
   }
   .home_side ul {
     display: none;
@@ -407,11 +409,12 @@ body{
     margin-right: 2rem;
   }
   .brown-box{
-    margin-left: 2rem;
+    margin-left: 1.5rem;
+    bottom: 28rem;
   }
   .brown-box2{
-    left: 400px;
-    bottom: 565px;
+    left: 370px;
+    bottom: 505px;
   }
  
 }
