@@ -35,7 +35,12 @@ function HomeHeader() {
                 //     transition: { duration: 0.5 },
                 //   }}
                 //   whileTap={{ scale: 0.9 }}
-            ></motion.div>
+            ><motion.h2 
+            
+            initial = {{scaleX: -2}} 
+            animate = {{scaleX: 1}}
+            transition = {{delay: 2, duration: 1}}
+            className="light-txt">BOUNCY IMAGE</motion.h2></motion.div>
         </div>
     </div>
   )

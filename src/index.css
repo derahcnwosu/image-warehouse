@@ -16,6 +16,11 @@ body{
 .lead-txt{
   font-size: 3.5rem;
 }
+.light-txt{
+  color: #fff;
+  margin-top: 7rem;
+  margin-left: 4rem;
+}
 
 /* HOME */
 .home{
@@ -401,7 +406,7 @@ body{
   }
   .home-circle{
     right: 0;
-    left: 3rem;
+    left: 2rem;
     bottom: 3rem;
     margin-bottom: 2rem;
     width: 300px;
@@ -427,13 +432,13 @@ body{
   .brown-box{
     width: 40px;
     height: 40px;
-    margin-left: 2.5rem;
+    margin-left: 2rem;
     bottom: 25rem;
   }
   .brown-box2{
     width: 40px;
     height: 40px;
-    left: 300px;
+    left: 290px;
     bottom: 445px;
   }
   .mach{
