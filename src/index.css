@@ -404,10 +404,13 @@ body{
   }
   .footer{
     justify-content: center;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+  }
+  .social{
+    margin: 0.5rem;
   }
   .contact{
-    margin-right: 2rem;
+    margin-right: 0;
   }
   .brown-box{
     margin-left: 1.5rem;
