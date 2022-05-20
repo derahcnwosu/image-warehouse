@@ -415,6 +415,9 @@ body{
     justify-content: center;
     font-size: 0.7rem;
   }
+  .main-foot{
+    margin-right: 3rem;
+  }
   .social{
     margin: 0.5rem;
   }
@@ -443,7 +446,9 @@ body{
   .cosmic{
     margin-top: 1rem;
   }
- 
+  .lead-txt{
+    font-size: 2rem;
+  }
 }
 
 
