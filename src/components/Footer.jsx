@@ -7,7 +7,7 @@ function Footer() {
       initial = {{opacity: 0}}
       whileInView = {{opacity: 1}}
       viewport = {{once: false}}
-      transition = {{delay: 2, duration: 2}}
+      transition = {{delay: 0.5, duration: 1}}
     >
       <ul>
           <li><a target= '_blank' rel='noreferrer' href='https://facebook.com/dera' className='footer-link social'>FACEBOOK</a></li>
