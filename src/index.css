@@ -225,6 +225,15 @@ body{
   grid-area: footer;
   font-weight: bold;
 }
+.main-foot{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 1rem;
+  grid-area: footer;
+  font-weight: bold;
+  margin-right: 2rem;
+}
 .footer ul{
   display: flex;
   list-style: none;
@@ -413,12 +422,16 @@ body{
     margin-right: 0;
   }
   .brown-box{
-    margin-left: 1.5rem;
+    width: 40px;
+    height: 40px;
+    margin-left: 2.5rem;
     bottom: 25rem;
   }
   .brown-box2{
-    left: 320px;
-    bottom: 455px;
+    width: 40px;
+    height: 40px;
+    left: 300px;
+    bottom: 445px;
   }
   .mach{
     margin-top: 1rem;

@@ -9,11 +9,13 @@ function Footer() {
       viewport = {{once: false}}
       transition = {{delay: 0.5, duration: 1}}
     >
-      <ul>
+     <div className="main-foot">
+     <ul>
           <li><a target= '_blank' rel='noreferrer' href='https://facebook.com/dera' className='footer-link social'>FACEBOOK</a></li>
           <li><a target= '_blank' rel='noreferrer' href='https://instagram.com/cydexx_mix' className='footer-link social'>INSTAGRAM</a></li>
       </ul>
       <a href= '/contact' className='footer-link contact'>CONTACT</a>
+     </div>
     </motion.div>
   )
 }
