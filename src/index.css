@@ -180,18 +180,23 @@ body{
 @keyframes brown-box {
   0%{
     opacity: 0.7;
+    background: lime;
   }
   25%{
-    opacity: 0;
+    opacity: 0.3;
+    background: purple;
   }
   50%{
     opacity: 0.7;
+    background: orange;
   }
   75%{
-    opacity: 0;
+    opacity: 0.3;
+    background: skyblue;
   }
   100%{
-    opacity: 0.7;
+    opacity: 0.4;
+    background: brown;
   }
 }
 .brown-box{
@@ -202,7 +207,7 @@ body{
   height: 50px;
   border-radius: 50%;
   background: brown;
-  animation: brown-box 2s ease-in-out 4s forwards;
+  animation: brown-box 2s ease-in-out 3s forwards;
 }
 .brown-box2{
   position: relative;
@@ -213,7 +218,7 @@ body{
   height: 50px;
   border-radius: 50%;
   background: brown;
-  animation: brown-box 2s ease-in-out 4s forwards;
+  animation: brown-box 2s ease-in-out 3s forwards;
 }
 
 
@@ -225,7 +230,7 @@ body{
 .footer{
   display: flex;
   text-align: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 1rem;
   grid-area: footer;
   font-weight: bold;
@@ -407,7 +412,7 @@ body{
   .home-circle{
     right: 0;
     left: 2rem;
-    bottom: 3rem;
+    /* bottom: 3rem; */
     margin-bottom: 2rem;
     width: 300px;
     height: 300px;
